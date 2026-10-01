@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Kanban Board</title>
+    <link rel="stylesheet" href="kanban.css" />
+    <script src="kanban.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Kanban Board</h1>
+
+      <div class="board">
+        <!-- list 1 -->
+        <div class="list" id="list1">
+          <h2>To Do</h2>
+          <div class="card" draggable="true" id="card1">8 hours Sleeping</div>
+          <div class="card" draggable="true" id="card2">1 hour Workout</div>
+        </div>
+
+        <!-- list 2 -->
+        <div class="list" id="list2">
+          <h2>In progress</h2>
+          <div class="card" draggable="true" id="card3">4 liters water</div>
+          <div class="card" draggable="true" id="card4">No junkfood</div>
+        </div>
+
+        <!-- list 3 -->
+        <div class="list" id="list3">
+          <h2>Done</h2>
+          <div class="card" draggable="true" id="card5">2 hours coding</div>
+          <div class="card" draggable="true" id="card6">Cleaning cloth</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
